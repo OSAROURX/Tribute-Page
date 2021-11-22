@@ -1,1 +1,1 @@
-# [Albert-Einstein-Tribute-Page](https://leviathansr.github.io/Tribute-Page/)
+# [Albert-Einstein-Tribute-Page](https://tribute-page-sr.netlify.app/)
