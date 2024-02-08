@@ -1,0 +1,153 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../fonts/roboto-v30-latin-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../fonts/roboto-v30-latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #eee;
+}
+
+#main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4.375rem;
+  margin-bottom: 0;
+  margin-top: 1.5625rem;
+  font-weight: 700;
+}
+
+header p {
+  margin-top: 0.9375rem;
+  font-size: 1.875rem;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#img-caption {
+  font-size: 1.125rem;
+  margin-top: 1.25em;
+  text-align: center;
+}
+
+#biography,
+#tribute-info {
+  max-width: 60rem;
+}
+
+#biography h2,
+#tribute-info h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  width: fit-content;
+  margin: 1.25em auto;
+  padding: 0 0.625em;
+}
+
+#biography p {
+  margin-inline: 1.5em;
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+#tribute-info ul {
+  position: relative;
+  padding: 0;
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+#tribute-info ul li {
+  margin-inline: 1.5em;
+}
+
+#tribute-info ul li strong {
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.more {
+  margin-bottom: 1rem;
+}
+
+.more h3 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.875rem;
+}
+
+.more a {
+  text-decoration: none;
+  color: currentColor;
+  transition: 0.2s ease-in-out;
+}
+
+.more a:hover {
+  color: rgb(223, 0, 0);
+}
+
+.back-to-top {
+  margin-bottom: 3em;
+}
+
+.back-to-top button {
+  padding: 1em 1.5em;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: black;
+  background-color: #eee;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+
+.back-to-top button:hover {
+  color: #eee;
+  background-color: black;
+  box-shadow: black;
+}
