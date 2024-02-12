@@ -62,6 +62,7 @@ header p {
 
 img {
   display: block;
+  width: 380px;
   margin: 0 auto;
   max-width: 100%;
   border-radius: 5px;
@@ -103,6 +104,7 @@ img {
 
 #tribute-info ul li {
   margin-inline: 1.5em;
+  margin-bottom: 2rem;
 }
 
 #tribute-info ul li strong {
@@ -111,18 +113,15 @@ img {
 }
 
 .more {
-  margin-bottom: 1rem;
-}
-
-.more h3 {
-  margin-top: 0;
+  margin-block: 0 2rem;
+  margin-inline: 1.5rem;
+  font-size: 1.75rem;
   text-align: center;
-  font-size: 1.875rem;
 }
 
 .more a {
   text-decoration: none;
-  color: currentColor;
+  color: black;
   transition: 0.2s ease-in-out;
 }
 
@@ -130,12 +129,9 @@ img {
   color: rgb(223, 0, 0);
 }
 
-.back-to-top {
+.button {
+  padding: 0;
   margin-bottom: 3em;
-}
-
-.back-to-top button {
-  padding: 1em 1.5em;
   font-size: 1rem;
   cursor: pointer;
   font-weight: 700;
@@ -146,8 +142,19 @@ img {
   transition: 0.2s ease-in-out;
 }
 
-.back-to-top button:hover {
+.back-to-top-link {
+  display: block;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  color: black;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover {
   color: #eee;
   background-color: black;
-  box-shadow: black;
+}
+
+.button:hover > .back-to-top-link {
+  color: #eee;
 }
